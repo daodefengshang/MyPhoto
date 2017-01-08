@@ -27,7 +27,7 @@ public class BaseFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        @SuppressLint("InflateParams")
+
         View view = inflater.inflate(R.layout.fragment_photoview, null);
         photoView = (PhotoView) view.findViewById(R.id.photoview);
         photoView.setOnPhotoTapListener(new PhotoViewAttacher.OnPhotoTapListener() {
