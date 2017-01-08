@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">相册浏览器</string>
+
+    <string name="title_activity_fullscreen"/>
+    <string name="dummy_button">Dummy Button</string>
+</resources>
